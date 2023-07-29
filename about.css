@@ -1,0 +1,168 @@
+#title {
+    text-align: center;
+
+}
+
+#title-body {
+    text-align: center;
+}
+
+#hero-photo {
+    width: 100%;
+}
+
+#hero-photo {
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+.step-card {
+    background-color: whitesmoke;
+    margin: 2em;
+    padding: 1.25em;
+    border-radius: 15px;
+}
+
+.step-card > h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: xx-large;
+    height: 80px;
+}
+
+.step-card>img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.team {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.member {
+    background-color: whitesmoke;
+    margin: 2em;
+    padding: 1.25em;
+    border-radius: 15px;
+}
+
+.name {
+    margin-top: 1em;
+}
+.role {
+    font-size:1.1em;
+}
+
+.name:hover {
+    color: #03c04a;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.person-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leading {
+    text-align: left;
+    font-size: 2.75em;
+}
+
+@media (min-width: 576px) { 
+    body {
+        color: red;
+    }
+
+    #leading {
+        font-size: 3.5em;
+    }
+
+    .name {
+        font-size: 1.8em;
+    }
+
+    .role {
+        font-size: 1.3em;
+    }
+    
+
+
+
+ }
+
+@media (min-width: 768px) { 
+    body {
+        color: blue;
+
+    }
+
+    #leading {
+        font-size: 4em;
+    }
+
+    .name {
+        font-size: 2em;
+    }
+
+    .role {
+        font-size: 1.5em;
+    }
+    
+    .team {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+    }
+ }
+
+@media (min-width: 992px) {  
+    body {
+        color: yellowgreen;
+    }
+
+    #leading {
+        font-size: 4.2em;
+    }
+
+    .name {
+        font-size: 2.2em;
+    }
+
+    .role {
+        font-size: 1.7em;
+    }
+    
+    .team {
+        width: 120px;
+        height: 120px;
+        border-radius: 15px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    body {
+        color: purple;
+    }
+
+
+    #center-team {
+        width: 1200px;
+    }
+    #about-team {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+ }
+
+@media (min-width: 1400px) { 
+    body {
+        color: green
+    }
+}

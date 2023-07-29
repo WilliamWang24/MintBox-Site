@@ -1,0 +1,199 @@
+ /* Generic Site Stylings */
+
+ body {
+     margin: 25px;
+ }
+ span {
+    color: #03c04a;
+}
+header {
+    margin-top: 2.5em;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+
+section {
+    margin-top: 3em;
+}
+
+/* Nav Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 1em 1em 1em;
+}
+
+.navbar-toggler {
+    scale: 0.8;
+    border: none;
+}
+
+#logo {
+    width: 30px;
+    height: 30px
+}
+
+/* Button Styling */
+
+button {     
+    border: none; 
+    background-color: none;
+    color: black
+}
+
+.round {
+    background-color: #03c04a;
+    color: white;
+    padding: 0.35em 1em;
+    border-radius: 1em;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+
+.round:hover {
+    opacity: 0.8;
+}
+
+.hover-animation {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 0.95em;
+  }
+  
+  .hover-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+ 
+
+
+  #title {
+    font-size: 2.75em;
+    margin-bottom: 0.5em;
+}
+
+
+
+img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+
+
+               
+
+@media (min-width: 576px) { 
+    .container-fluid {
+        max-width: 85vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #center {
+        max-width: 650px;
+    }
+    
+
+    #title {
+        font-size: 3.3em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .section-title-first, .section-title-second {
+        font-size: 2.3em;
+    }
+
+    .card-title {
+        font-size: 2.4em;
+    }
+
+ }
+
+@media (min-width: 768px) { 
+
+    #title {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+
+
+ }
+
+ 
+@media (min-width: 992px) { 
+
+  
+    #center {
+        max-width: 850px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #title {
+        font-size: 4.8em;   
+        width: 800px; 
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    #title-p {
+        width: 800px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+  
+
+    #title, #title-p {
+        width: 1000px;
+    }
+
+    #title {
+        font-size: 5.5em;
+    }
+
+
+    .round {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 1.4em;
+    }
+  
+ 
+ }
+

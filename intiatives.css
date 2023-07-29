@@ -1,0 +1,279 @@
+#title {
+    font-size: 2.75em;
+    margin-bottom: 0.5em;
+}
+
+
+
+img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.card-background, #planter {
+    background-color:whitesmoke;
+    padding: 1.25em 1.5em;
+    border-radius: 15px;
+    margin-bottom: 1.5em;
+}
+
+.card-title {
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.timeline {
+    font-weight: bold;
+}
+
+
+.item-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.explain-subtitle {
+    font-size: smaller;
+    color: #03c04a;
+}
+
+.planter-tag{
+    margin-bottom: 2em;
+}
+
+#tags {
+    margin-bottom: 3em;
+    margin-top: 1.5em
+}
+
+.description-title {
+    font-size: larger;
+}
+
+.description {
+    margin-bottom: 2.25em;
+}
+
+#planter-photo {
+    border-radius: 15px;
+    margin-bottom: 1.5em;
+}
+
+
+.product-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+#baby-sprout {
+    margin-bottom: 1em;
+}
+.section-title-first, .section-title-second {
+    text-align: center;
+    margin-bottom: 0.7em;
+    font-size: xx-large;
+}
+
+
+.pdf-title {
+    font-size:larger;
+    font-weight:600;
+}
+
+.pdf-link {
+    text-decoration: none;
+    color:#03c04a
+}
+
+.pdf {
+    margin-bottom: 1.5em;
+}                    
+
+@media (min-width: 576px) { 
+    .container-fluid {
+        max-width: 85vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #center {
+        max-width: 650px;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title {
+        font-size: 3.3em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .section-title-first, .section-title-second {
+        font-size: 2.3em;
+    }
+
+    .card-title {
+        font-size: 2.4em;
+    }
+
+ }
+
+@media (min-width: 768px) { 
+
+    #title {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .section-title-first, .section-title-second {
+        font-size: 2.8em;
+    }
+
+    .section-title-first {
+        margin-bottom: none;
+    }
+
+    #reces {
+        max-width: 1900px;
+    }
+
+  
+    #pdfs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pdf-title {
+        font-size: 1.5em;
+    }
+
+    .pdf-link {
+        font-size: 1.2em;
+    }
+
+    .pdf {
+        max-width: 95%;
+    }
+
+    .card-background {
+        max-width: 650px;
+    }
+
+    #flex-partner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+ }
+
+ 
+@media (min-width: 992px) { 
+
+  
+    #center {
+        max-width: 850px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #title {
+        font-size: 4.8em;   
+        width: 800px; 
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    #title-p {
+        width: 800px;
+    }
+    .card-background {
+        width: 50%;
+        max-height: 1250px;
+    }
+
+    .card-title {
+        font-size: 2.7em;
+    }
+    .card-background:nth-of-type(1) {
+        margin-right: 25px;
+    }
+
+    #flex-partner {
+        display: flex;
+        flex-direction: row;
+      
+    }
+    .v-align {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .section-title-first, .section-title-second {
+        font-size: 3em;
+    }
+
+    .pdf {
+        width: 900px;
+    }
+
+   
+}
+
+@media (min-width: 1200px) {
+  
+
+    #title, #title-p {
+        width: 1000px;
+    }
+
+    #title {
+        font-size: 5.5em;
+    }
+
+    .section-title-first, .section-title-second {
+        font-size: 3.4em;
+    }
+
+    .card-title {
+        font-size: 3.2em;
+    }
+
+    .round {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 1.4em;
+    }
+  
+    .pdf {
+        width: 1000px;
+    }
+    .pdf-title {
+        font-size: 1.8em;
+    }
+ }
+
