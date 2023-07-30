@@ -10,12 +10,7 @@ header {
     margin-top: 2.5em;
 }
 
-#center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 0.5em;
-}
+
 
 
 section {
@@ -86,15 +81,6 @@ button {
     transform-origin: bottom left;
   }
 
- 
-
-
-  #title {
-    font-size: 2.75em;
-    margin-bottom: 0.5em;
-}
-
-
 
 img {
     width: 100%;
@@ -112,88 +98,4 @@ img {
         display: flex;
         flex-direction: column;
     }
-
-    #center {
-        max-width: 650px;
-    }
-    
-
-    #title {
-        font-size: 3.3em;
-    }
-
-    p {
-        font-size: 1.1em;
-    }
-
-    .section-title-first, .section-title-second {
-        font-size: 2.3em;
-    }
-
-    .card-title {
-        font-size: 2.4em;
-    }
-
  }
-
-@media (min-width: 768px) { 
-
-    #title {
-        font-size: 4em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-
-
- }
-
- 
-@media (min-width: 992px) { 
-
-  
-    #center {
-        max-width: 850px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #title {
-        font-size: 4.8em;   
-        width: 800px; 
-    }
-
-    p {
-        font-size: 1.3em;
-    }
-
-    #title-p {
-        width: 800px;
-    }
-    
-}
-
-@media (min-width: 1200px) {
-  
-
-    #title, #title-p {
-        width: 1000px;
-    }
-
-    #title {
-        font-size: 5.5em;
-    }
-
-
-    .round {
-        font-size: 1.2em;
-    }
-    p {
-        font-size: 1.4em;
-    }
-  
- 
- }
-
