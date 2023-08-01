@@ -123,9 +123,7 @@
 
 @media (min-width: 768px) { 
 
-    body {
-        color: orange;
-    }
+
  
     #title {
         font-size: 4em;
@@ -167,9 +165,7 @@
 
 @media (min-width: 992px) {  
 
-    body {
-        color: blue;
-    }
+   
 
     #title {
         font-size: 4.5em;
@@ -264,9 +260,7 @@
 }
 
 @media (min-width: 1200px) { 
-    body {
-        color: brown;
-    }
+    
 
     #title {
         font-size: 4.5em;
