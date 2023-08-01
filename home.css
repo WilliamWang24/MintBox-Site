@@ -21,6 +21,10 @@
     margin-bottom: 0.5em;
 }
 
+
+#replace {
+    display: none;
+}
 #title-body {
     margin-bottom: 1em;
     max-width: 90vw;
@@ -83,6 +87,9 @@
     margin-bottom: 3em;
 }
 
+#learn-body {
+    margin-bottom: 1.25em;
+}
 
  
  
@@ -90,3 +97,207 @@
 
 
 
+
+@media (min-width: 576px) { 
+  
+
+    #title {
+        font-size: 3.3em;
+    }
+    
+    #recent-text {
+        font-size: 2em;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header>div {
+        max-width: 900px;
+    }
+
+ }
+
+@media (min-width: 768px) { 
+
+    body {
+        color: orange;
+    }
+ 
+    #title {
+        font-size: 4em;
+    }
+
+    #recent {
+        max-width: 800px;
+    }
+
+    #recent-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    #title-body {
+        margin-bottom: 1.5em;
+        max-width: 750px;
+    }
+    #recent-text {
+        font-size: 2.3em;
+    }
+
+    #impact-title, #learn-title {
+        font-size: 2.5em;
+    }
+
+    .impact-item-title {
+        font-size: 2.1em;
+    }
+
+
+
+ }
+
+@media (min-width: 992px) {  
+
+    body {
+        color: blue;
+    }
+
+    #title {
+        font-size: 4.5em;
+    }
+    #home2 {
+        display: none;
+    }
+
+    #replace {
+        display: block;
+        max-width: 375px;
+    }
+
+     /* header>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+    }
+
+   
+
+    header>div>img {
+        width: 50%;
+        height: 50%;
+        margin-right: 2em;
+    } */
+
+    #recent{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        max-width: none;
+    }
+
+    #recent>div {
+        max-width: 50%;
+        margin-left: 2em;
+    }
+
+    #recent-img {
+        height: 100%;
+    }
+    #impact-title, #learn-title{
+        font-size: 2.8em;
+    }
+
+    #impact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #impact-item {
+        max-width: 33%;
+    }
+
+    .impact-item:nth-of-type(1), .impact-item:nth-of-type(2)  {
+        margin-right: 2em;
+    }
+    
+    #recent-text {
+        font-size: 2.3em;
+    }
+
+
+    #learn-title,  #learn-body{
+        text-align: center;
+    }
+
+   #learn {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   #learn>div {
+    max-width: 1100px;
+   
+    }
+
+    #learn-body {
+        max-width: 800px;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) { 
+    body {
+        color: brown;
+    }
+
+    #title {
+        font-size: 4.5em;
+    }
+
+
+    header {
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+
+    #recent>div {
+        max-width: 50%;
+
+    }
+
+    #recent-text {
+        font-size: 2.5em;
+    }
+
+    #outside-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #impact, #recent {
+        max-width: 1100px;
+
+    }
+
+
+ }
