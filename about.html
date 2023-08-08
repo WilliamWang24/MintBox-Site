@@ -12,45 +12,100 @@
         <link rel="stylesheet" href="about.css">
 
     </head>
+    <nav class="navbar navbar-expand-md navbar-light navbar-inverse">
+        <a href="index.html" class="link"><img src="logotext.png" id="logo"  alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <ul class="navbar-nav me-autot">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="initatives.html">Recent Intiatives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:name@email.com">Instagram</a>
+                </li>
+         
+            </ul>
+        </div>
+    </nav>
+    
     <body>
-        <nav class="navbar navbar-expand-md navbar-light navbar-inverse">
-            <a href="index.html" class="link"><img src="logo.png" id = "logo" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">    
-                </ul>
-                <ul class="navbar-nav me-autot">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Our Story</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="initatives.html">Recent Intiatives</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mailto:name@email.com">Contact</a>
-                    </li>
-                </ul>
-            </div>
-          </nav>
+      
         <div class="container-fluid">
             <header>
                 <div id="center">
-                    <div id = "flextocenter">
+                    <!-- <div id = "flextocenter">
                         <img id = "hero-photo"src="about.jpg" alt="">
-                    </div>
+                    </div> -->
                     <div>
-                        <h1 id = "title">A sustainable response to the <span>pandemic</span></h1>
-                        <p id = "title-body">MintBox came from a school project of a group of 8th graders in a Zoom class. They started tinkering and learning about gardening. But this project became so much more than just that...<p>
+                        <h1 id = "title">A sustainable <br> response to the <span>pandemic</span></h1>
+                        <p id = "title-body">MintBox started as a school project of a group of 8th graders on Zoom. They started tinkering and learning about gardening. But this project became so much more than just that...<p>
                     </div>
                     
                 </div>
                 
             </header>
+
+            <section id = "story">
+                    <div class="story-section nlcard lft">
+                        <img class = "nosplay" src="past.png" alt="">
+                        <img class = "display" src="pastvert.png" alt="">
+
+                        <div class="story-content">
+                            <h3>The Seed</h3>
+                            <h2>Starting as a school project</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam alias enim harum est quos consequatur, molestiae facere voluptate sit temporibus et ipsum quis hic maxime veritatis necessitatibus incidunt, non tenetur?</p>
+                        </div>
+                    </div>
+                    <div class="story-section nlcard">
+                        <img class = "nosplay" id = "storyphoto" src="present.png" alt="">
+                        <img class = "display" src="presentvert.png" alt="">
+
+                        <div class="story-content">
+                            <h3>The Sprout</h3>
+                            <h2>Building and selling kits</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam alias enim harum est quos consequatur, molestiae facere voluptate sit temporibus et ipsum quis hic maxime veritatis necessitatibus incidunt, non tenetur?</p>
+                        </div>
+                    </div>
+              
+                    <div class="story-section">
+                        <img class = "nosplay" src="future.png" alt="">
+                        <img class = "display" src="futurevert.png" alt="">
+
+                        <div class="story-content">
+                            <h3>The Growth</h3>
+                            <h2>A community-centered future</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam alias enim harum est quos consequatur, molestiae facere voluptate sit temporibus et ipsum quis hic maxime veritatis necessitatibus incidunt, non tenetur?</p>
+                        </div>
+                    </div>    
+                
+                
+            </section>
+            <!-- <div id="section-timeline">
+                <div class="moment">
+                    <div class="left-card">
+                        <div>
+                            <h2>Humble Starts</h2>
+                            <p>MintBox started as a school project of a group of 8th graders on Zoom. They started tinkering and learning about gardening. But this project became so much more than just that...<p>
+                        </div>
+                        
+                    </div>
+                    <div class="rightphoto">
+                        <img src="present.png" alt="">
+
+                    </div>
+                </div>
+            </div>
             <section id="step-cards">
                 <div class="flex">
                     <div class="step-card">
@@ -81,8 +136,21 @@
                    
                     <img src="future.png" alt="">
                 </div>
-            </section>
+            </section> -->
+            <section id="story">
+                <!-- <div class="container">
+                    <div class="square">
+                      <div class="container-content">
+                          <div>
+                            <h2 class = "square-title">Who are we?</h2>
+                            <p>Molestiae dolor dolores, consectetur sed ipsa explicabo temporibus nisi iure labore eum?<br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem asperiores fugit illo eius blanditiis necessitatibus quia sed.</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div> -->
 
+
+            </section>
             <section id="about-team">
                 <div id = "center-team">
                     <h1 id = "leading">Our <span>team</span></h1>
@@ -93,7 +161,7 @@
                                 <h2 class = "name">Ethan Seiz</h2>
                                 <h3 class = "role">Co-Founder/CEO</h3>
                             </div>
-                            <img class = "team" src="ronnie.png" alt="">
+                            <img class = "team" src="eseiz.png" alt="">
                         </div>
                     </div>
                     <div class="person">
@@ -103,7 +171,7 @@
                                 <h2 class = "name">William Wang</h2>
                                 <h3 class = "role">Co-Founder/Head of Content</h3>
                             </div>
-                            <img class = "team" src="ronnie.png" alt="">
+                            <img class = "team" src="wwang.png" alt="">
                         </div>
                     </div>
                     <div class="person">
@@ -132,7 +200,7 @@
                                 <h2 class = "name">Dexter Greene</h2>
                                 <h3 class = "role">Product Engineer</h3>
                             </div>
-                            <img class = "team" src="ronnie.png" alt="">
+                            <img class = "team" src="dgreen.png" alt="">
                         </div>
                     </div>
                     <div class="person">

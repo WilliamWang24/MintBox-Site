@@ -98,10 +98,8 @@ img {
 
   
 
-@media (min-width: 576px) { 
-    .container-fluid {
-        max-width: 85vw;
-        display: flex;
-        flex-direction: column;
-    }
- }
+.container-fluid {
+    max-width: 85vw;
+    display: flex;
+    flex-direction: column;
+}

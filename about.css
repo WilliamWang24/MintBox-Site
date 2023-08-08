@@ -1,10 +1,15 @@
+
 #title {
     font-size: 3.5em;
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
+#title-body {
+    text-align: center;
+}
 #center {
-    max-width: 1200px;
+    max-width: 900px !important;
 }
 header {
     display: flex;
@@ -22,15 +27,17 @@ header {
     margin-bottom: 2.5em;
 }
 
+
+
 #step-cards {
     margin-top: none;
 }
 .step-card {
     background-color: whitesmoke;
-    padding: 1.25em;
+    padding: 2em;
     border-radius: 15px;
     margin-bottom: 2.5em;
-    max-width: 500px;
+    max-width: 50=50px;
 }
 
 .content>h2 {
@@ -66,6 +73,7 @@ header {
 }
 .role {
     font-size:1.1em;
+    margin-bottom: 1em;
 }
 
 .name:hover {
@@ -85,20 +93,67 @@ header {
     font-size: 2.75em;
 }
 
-@media (min-width: 576px) { 
 
+.story-content>h3 {
+    color:#03c04a;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+
+.story-content>h2 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+
+.story-section>img {
+    margin-bottom: 1.5em;
+    max-width: 60%;
+}
+
+.story-content>p {
+    margin-bottom: 0em;
+}
+
+.story-section {
+    background-color: whitesmoke;
+    padding: 2em;
+    border-radius: 15px;
+}
+
+.nlcard {
+    margin-bottom: 2.5em;
+}
+
+#story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    display: none;
+}
+
+@media (min-width: 576px) { 
+ 
     #leading {
         font-size: 3.5em;
     }
 
-    .name {
-        font-size: 1.8em;
+    .story-section {
+        max-width: 90%;
     }
 
-    .role {
+
+    .story-content>h3 {
         font-size: 1.3em;
     }
- 
+    
+    .story-content>h2 {
+        font-size: 2em;
+    }
 
 
     p {
@@ -122,6 +177,110 @@ header {
  }
 
 @media (min-width: 768px) { 
+  
+
+    .display {
+        display: block;
+    }
+
+    .nosplay {
+        display: none;
+    }
+   
+    .story-section {
+        display: flex;
+        max-width: none;
+        align-items: center;
+        max-width: 1100px;
+    }
+
+    .story-content {
+        margin-left: 2em;
+    }
+
+    .story-section>img {
+        width: 45%;
+        height: 100%;
+    }
+
+    .name {
+        font-size: 1.8em;
+    }
+
+    .role {
+        font-size: 1.3em;
+    }
+    
+    .team {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+    }
+
+ }
+
+@media (min-width: 992px) {  
+
+ 
+    #center {
+        max-width: 800px;
+    }
+
+    .story-section>img {
+        width: 40%;
+
+    }
+
+    .display {
+        display: none;
+    }
+
+    .nosplay {
+        display: block;
+    }
+
+
+   .content>h2,#leading {
+       font-size: 3.3em;
+   }
+
+   .story-content>h3 {
+    font-size: 1.5em;
+}
+
+    .story-content>h2 {
+        font-size: 2.3em;
+    }
+
+    .story-section {
+        padding: 2.5em
+    }
+
+    .story-content {
+        margin-left: 3em;
+    }
+ 
+   /* .story-row {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .story-row>div {
+       width: 50%;
+   }
+   
+   .lft {
+       margin-right: 25px;
+   } */
+
+
+    .team {
+        width: 120px;
+        height: 120px;
+        border-radius: 15px;
+    }
+
     .step-card {
         display: flex;
         align-items: center;
@@ -136,62 +295,25 @@ header {
 
     }
 
+    .step-card>img {
+        max-width: 300px;
+        max-width: 80%;
+        margin-bottom: none;
+    }
+    
+ 
+     .step-card>img {
+         max-width: 350px;
+     }
     .content {
         max-width: 55%;
         margin-right: 1.5em;
     }
     
-    #leading {
-        font-size: 4em;
-    }
-
-    .name {
-        font-size: 2em;
-    }
-
-    .role {
-        font-size: 1.5em;
-    }
-    
-    .team {
-        width: 100px;
-        height: 100px;
-        border-radius: 15px;
-    }
-
- }
-
-@media (min-width: 992px) {  
-
-    #center {
-        max-width: 800px;
-    }
-
-   .content>h2 {
-       font-size: 3.3em;
-   }
-
-    #leading {
-        font-size: 4.2em;
-    }
-
-    .name {
-        font-size: 2.2em;
-    }
-
-    .role {
-        font-size: 1.7em;
-    }
-    
-    .team {
-        width: 120px;
-        height: 120px;
-        border-radius: 15px;
-    }
 }
 
 @media (min-width: 1200px) { 
-
+ 
 
     #center {
         display: flex;
@@ -206,21 +328,26 @@ header {
        
     }
 
+    .content>h2,#leading {
+        font-size: 3.7em;
+    }
+ 
+    .story-content>h3 {
+     font-size: 1.7em;
+ }
+
     #title {
-        font-size: 4.5em;
+        font-size: 5em;
     }
 
-   .step-card>img {
-       max-width: 300px;
-       max-width: 80%;
-       margin-bottom: none;
-   }
-   
-
-    .step-card>img {
-        max-width: 350px;
+    .name {
+        font-size: 1.9em;
     }
-    
+
+    .role {
+        font-size: 1.4em;
+    }
+
     h2 {
         font-size: 3.5em;
     }

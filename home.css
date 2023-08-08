@@ -2,6 +2,9 @@
     General Styling
 */
 
+header {
+    margin-top: 0.6em;
+}
 .photo {
     border-radius: 15px;
 }
@@ -44,9 +47,64 @@
     opacity: 0.5;
 }
 
+ #programtitle {
+     text-align: center;
+     font-size: 2em;
+     margin-bottom: 0.75em;
+ }
 #recent-round, #insta {
     margin-left: 0.5em;
 }
+
+#mission {
+    background-color: whitesmoke;
+    padding: 2.25em 1.5em;
+    border-radius: 15px;
+}
+
+.program-title {
+    font-size: 1.5em;
+}
+
+.program {
+    background-color: whitesmoke;
+    padding: 1.5em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin-bottom: 2.5em;
+}
+
+
+
+.programrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+#programs {
+    margin-top: 4.25em;
+    margin-bottom: 2.5em;
+}
+
+.rowwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program>img {
+    width: 35%;
+    height: 100%;
+    margin-right: 1.5em;
+}
+
+
 
 
 /* 
@@ -61,7 +119,7 @@
     background-color: whitesmoke;
     padding: 2.25em 1.5em;
     border-radius: 15px;
-
+    margin-bottom: 2em;
 }
 
 .impact-item {
@@ -91,16 +149,42 @@
     margin-bottom: 1.25em;
 }
 
- 
- 
 
+.card-title {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+ 
+ .card-btn {
+     max-width: 150px;
+ }
+ 
+#flex {
+    display: flex;
+}
+.card {
+    background-color: whitesmoke;
+    padding: 2.25em 1.5em;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 3em;
+   
+}
+
+.card>img {
+    width: 150px;
+    height: 150px;
+    margin-right: 35px;
+}
 
 
 
 
 @media (min-width: 576px) { 
-  
+ 
+    
 
+  
     #title {
         font-size: 3.3em;
     }
@@ -124,7 +208,16 @@
 @media (min-width: 768px) { 
 
 
+  
+    #programtitle {
+        font-size: 2.75em;
+    }
  
+    .program-title {
+        font-size: 1.75em;
+    }
+
+
     #title {
         font-size: 4em;
     }
@@ -164,8 +257,15 @@
  }
 
 @media (min-width: 992px) {  
-
+ 
    
+    .programrow {
+        flex-direction: row;
+    }
+
+    .program:nth-of-type(1) {
+        margin-right: 2em;
+    }
 
     #title {
         font-size: 4.5em;
@@ -212,6 +312,7 @@
     }
     #impact-title, #learn-title{
         font-size: 2.8em;
+        text-align: center;
     }
 
     #impact-container {
@@ -220,12 +321,18 @@
         align-items: center;
     }
 
-    #impact-item {
+    .impact-item {
         max-width: 33%;
+        padding: 2em
+    }
+
+    #impact {
+        padding: 2.25em 1.75em;
+
     }
 
     .impact-item:nth-of-type(1), .impact-item:nth-of-type(2)  {
-        margin-right: 2em;
+        margin-right: 1em;
     }
     
     #recent-text {
@@ -260,16 +367,15 @@
 }
 
 @media (min-width: 1200px) { 
-    
+
 
     #title {
         font-size: 4.5em;
     }
 
 
-    header {
-        margin-left: 12vw;
-        margin-right: 12vw;
+    #programtitle {
+        font-size: 3em;
     }
 
     #recent>div {
