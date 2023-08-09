@@ -8,11 +8,8 @@ img {
     border-radius: 15px;
 }
 
-.card-background, #planter {
-    background-color:whitesmoke;
-    padding: 1.25em 1.5em;
-    border-radius: 15px;
-    margin-bottom: 1.5em;
+#planter-photo {
+    max-width: 30vw;
 }
 
 .card-title {
@@ -21,8 +18,23 @@ img {
     margin-bottom: 0.5em;
 }
 
+
+
 .timeline {
     font-weight: bold;
+}
+
+#descriptions {
+    margin-bottom: 5em;
+}
+#bottom-part {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 1.5em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -41,12 +53,17 @@ img {
 }
 
 #tags {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     margin-top: 1.5em
 }
 
 .description-title {
     font-size: larger;
+    margin-bottom: 0.5em;
+}
+
+.extramarg {
+    margin-bottom: 0.75em;
 }
 
 .description {
@@ -55,7 +72,11 @@ img {
 
 #planter-photo {
     border-radius: 15px;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+
+#planter-photo, #baby-sprout {
+    max-width: 400px;
 }
 
 
@@ -85,6 +106,7 @@ img {
 #baby-sprout-title {
     margin-top: 1em;
     margin-bottom: 0.5em;
+    font-size: 2em;
 }
 
 #baby-sprout-descrip {
@@ -94,6 +116,42 @@ img {
 #last-item {
     margin-bottom: 1.5em;
 }
+
+#photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo {
+    margin-bottom: 3.5em;
+    max-width: 500px;
+}
+.photo-date {
+    font-size: 1em;
+    color: #03c04a;
+    margin-bottom: 0.5em;
+    margin-top: 1.25em;
+}
+
+.photo-title {
+    margin-bottom: 0.5em;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marginbtn {
+    margin-bottom: 1.5em;
+}
+
+
+.note>h3 {
+    font-size: 1em;
+}
+
 
 @media (min-width: 576px) { 
 
@@ -130,6 +188,19 @@ img {
         justify-content: center;
     } 
 
+    .flex-format {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #planter-photo {
+        max-width: 50%;
+        height: 50%;
+        margin-right: 2em;
+
+    }
+
     header>div {
         max-width: 700px;
     }
@@ -154,6 +225,20 @@ img {
         align-items: center;
         justify-content: center;
     }
+
+    #right {
+        max-width: 75%;
+    }
+    #photos {
+        flex-direction: row;
+    }
+    .photo:nth-of-type(1) {
+        margin-right: 3vw;
+    }
+
+    .photo {
+        width: 50%;
+    }
  }
 
 @media (min-width: 992px) {  
@@ -166,27 +251,34 @@ img {
         font-size: 4.5em;
     }
 
-    .flex-format, #descriptions {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+    
+
+    .note>h3 {
+        font-size: 1.1em;
     }
 
-    #planter-photo {
-        max-width: 50%;
-        height: 50%;
-        margin-right: 2em;
 
+  
+
+   
+    .card-background, #planter {
+        padding: 2em 2.5em;
     }
+
+   
+
+
 
     .product-title {
         font-size: 3em;
     }
   
     #tags {
-        margin-bottom: none;
-        margin-top: none
+        margin-bottom: 3em;
+        margin-top: 3em
     }
+    
     .description:nth-of-type(1) {
         margin-right: 2em;
     }
@@ -215,8 +307,6 @@ img {
 
 @media (min-width: 1200px) { 
 
-
-
     #planter {
         max-width: 1100px;
     }
@@ -227,6 +317,11 @@ img {
     #title{
         font-size: 5em;
   
+    }
+
+    #planter-photo {
+        max-width: 45%;
+
     }
 
     p {
