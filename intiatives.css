@@ -192,8 +192,23 @@ img {
     #large {
         width: 100%;
         max-width: 1040px;
-        padding: 3em 4em;
+        padding: 3em 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+
+    .large-content {
+        width: 350%;
+        margin-right: 2em;
+    }
+
+    .left{
+        margin-right: 3em;
+        margin-left: 2em;
+    }
+
     .card-title {
         font-size: 2.5em;
     }
