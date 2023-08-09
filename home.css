@@ -267,6 +267,9 @@ header {
         margin-right: 2em;
     }
 
+    .program {
+        width: 50%;
+    }
     #title {
         font-size: 4.5em;
     }
