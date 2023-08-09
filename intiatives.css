@@ -22,11 +22,15 @@ img {
 
 }
 
-.card-title {
-    margin-top: 1em;
+.card-title, .card-title-large {
     font-size: 2em;
     margin-bottom: 0.5em;
 }
+
+.card-title-large, .card-title {
+    margin-top: 1.5em;
+}
+
 
 .timeline {
     font-weight: bold;
@@ -103,7 +107,7 @@ img {
         font-size: 2.3em;
     }
 
-    .card-title {
+    .card-title, .card-title-large {
         font-size: 2.4em;
     }
 
@@ -199,9 +203,17 @@ img {
     }
 
 
+    .card-title-large {
+        margin-top: 0px;
+    }
     .large-content {
-        width: 350%;
         margin-right: 2em;
+    }
+
+
+
+    #square {
+        margin-top: none !important;
     }
 
     .left{
@@ -209,7 +221,7 @@ img {
         margin-left: 2em;
     }
 
-    .card-title {
+    .card-title, .card-title-large {
         font-size: 2.5em;
     }
     .margin-right {
