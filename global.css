@@ -63,31 +63,15 @@ button {
     opacity: 0.8;
 }
 
-.hover-animation {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
+.underline {
     color: black;
-    font-size: 0.95em;
-  }
-  
-  .hover-animation::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .hover-animation:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+    margin-right: 0.75em;
+}
+
+.underline:hover {
+    color: #03c04a;
+    transition: ease-in-out 0.3s;
+}
 
 
 img {
