@@ -58,7 +58,7 @@ img {
 }
 
 .description-title {
-    font-size: 1.3em;
+    font-size: larger;
     margin-bottom: 0.5em;
 }
 
@@ -128,7 +128,7 @@ img {
 }
 .photo {
     margin-bottom: 3.5em;
-    max-width: 600px;
+    max-width: 570px;
 }
 .photo-date {
     font-size: 1em;
@@ -174,7 +174,9 @@ img {
         font-size: 1.5em;
     }
 
-  
+    .description-title {
+        font-size: 1.3em;
+    }
 
     #baby-sprout-title {
         font-size: 2.2em;
@@ -214,7 +216,7 @@ img {
     }
     
     .description-title {
-        font-size: 1.8em;
+        font-size: 1.3em;
     }
 
     #baby-sprout-title {
@@ -260,9 +262,6 @@ img {
     }
 
 
-    .firstrowphotos {
-        margin-bottom: none;
-    }
   
 
    
@@ -347,7 +346,9 @@ img {
     #planter-photo {
         margin-right: 4em;
     }
-
+    .description-title {
+        font-size: 1.8em;
+    }
 
     #baby-sprout-title {
         font-size: 2.8em;
