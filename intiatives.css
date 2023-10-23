@@ -10,9 +10,6 @@ img {
 }
 
 
-.none {
-    display: none;
-}
 .card-background, #planter {
     background-color:whitesmoke;
     padding: 2em 1.5em;
@@ -167,13 +164,7 @@ img {
     .card-background {
         margin-bottom: 35px;
     }
-    .none {
-        display: block;
-    }
 
-    .hide {
-        display: none;
-    }
     #center {
         max-width: 850px;
         justify-content: center;
